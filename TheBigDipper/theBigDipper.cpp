@@ -68,7 +68,7 @@ int main(int argc, char** argv)
     glutInitDisplayMode(GLUT_SINGLE);
     glutInitWindowSize(320, 240);
     glutInitWindowPosition(100, 200);
-    glutCreateWindow("Meraba");
+    glutCreateWindow("The Big Dipper");
     glutDisplayFunc(renderer);
 
     initGraphics();
