@@ -5,7 +5,7 @@
 #include <iostream>
 #include <time.h>
 #include <math.h>
-#include "../tools.h"
+#include "../tools.cpp"
 
 const int MOUNT_WIDTH = 7;
 const int MOUNT_HEIGHT = 3;
@@ -19,13 +19,6 @@ void initGraphics(void)
     glLoadIdentity();
     gluOrtho2D(-WIDTH/2, WIDTH/2, -HEIGHT/2, HEIGHT/2);
     glPointSize(2.0);
-}
-
-void drawDPoint(GLdoublePoint point)
-{
-    glBegin(GL_POINTS);
-        glVertex2d(point.x, point.y);
-    glEnd();
 }
 
 void drawAxes()

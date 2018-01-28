@@ -21,5 +21,7 @@ class GLdoublePoint
 void drawIPoint(GLint x, GLint y);
 void drawDPoint(GLdouble x, GLdouble y);
 void drawILine(GLint x1, GLint y1, GLint x2, GLint y2);
+void moveto(GLint x, GLint y);
+void lineto(GLint x, GLint y);
 
 #endif
